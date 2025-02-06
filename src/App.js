@@ -10,7 +10,7 @@ function App() {
           <span className = "circle">BNK</span>
           <span className = "name"> Beyzanur Kuyuk</span> 
         </div>
-        <ul className = "navbar-links">
+        <ul className = "navbarLinks">
           <li><a href = "#about">About</a></li>
           <li><a href = "#experience">Experience</a></li>
           <li><a href = "#education">Education</a></li>
@@ -55,5 +55,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
