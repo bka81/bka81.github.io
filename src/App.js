@@ -38,6 +38,10 @@ function App() {
             </a>
           </div>
         </div>
+        <div className = "profile-placeholder">
+          <img src ="/profile_placeholder.jpg" alt ="A cute cat as a profile placeholder">
+          </img>
+        </div>
       </section>
 
       {/*About section*/}

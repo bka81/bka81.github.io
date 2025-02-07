@@ -76,3 +76,9 @@ section{
 .icon-links :hover{
     color:rgba(117, 27, 106, 0.674);   
 }
+.profile-placeholder img{
+    width: 400px;
+    height: 400px;
+    border-radius: 200%;
+    object-fit: cover;  
+}
