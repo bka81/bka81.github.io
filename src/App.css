@@ -62,8 +62,6 @@ section{
 #home{
     display: flex;
     font-size:xx-large;
-    border: solid;
-    border-color: #1E1E1E;
     align-items: center;
     justify-content:space-between;
     margin-bottom:-5%;
