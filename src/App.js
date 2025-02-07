@@ -1,5 +1,7 @@
 import './App.css';
 import React from "react";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function App() {
   return (
@@ -20,7 +22,22 @@ function App() {
       </nav>
       {/*Home section*/}
       <section id = "home">
-        <h1>Hello! I am Beyza</h1>
+        <div className="intro">
+          <h1>Hello! I am Beyza</h1>
+          <div className = "icon-links">
+            <a href="https://www.linkedin.com/in/beyzanur-kuyuk-144a5b260" target="_blank" rel="noopener noreferrer">
+            <i className = "fab fa-linkedin"></i>
+            </a>
+
+            <a href="https://github.com/bka81" target="_blank" rel="noopener noreferrer">
+            <i className = "fab fa-github"></i>
+            </a>
+
+            <a href="mailto:kuyukbeyza@gmail.com" target="_blank" rel="noopener noreferrer">
+            <i className = "fab fa-google"></i>
+            </a>
+          </div>
+        </div>
       </section>
 
       {/*About section*/}
