@@ -80,3 +80,9 @@ section{
     border-radius: 200%;
     object-fit: cover;  
 }
+#about{
+    background-color: #9fa362;
+    font-size:x-large;
+    padding-top: 20px;
+    padding-bottom:40px;
+}
