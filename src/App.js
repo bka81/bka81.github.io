@@ -47,13 +47,22 @@ function App() {
       {/*About section*/}
       <section id = "about">
         <h2>About Me</h2>
-        <p>bio</p>
+        <p>I am a Computer Science student at Simon Fraser University with a passion for software development and love to learn more everyday and improve myself. For me, the computer is a canvas, the keyboard a brush, and programming a most fascinating art.</p>
       </section>
 
       {/*Experience section*/}
       <section id = "experience">
         <h2>Experience</h2>
-        <p>Work and volunteer experience</p>
+        <ul className = 'experience-links'>
+          <li><a href="https://www.turkishcanadiansociety.ca/about-tcs/" target ="_blank" rel = "noopener noreferrer">Turkish Canadian Society of Edmonton</a> - Teaching Assistant</li>
+          <li><a href = "https://www.edmontonbluemosque.com" target ="_blank" rel = "noopener noreferrer">Edmonton Blue Mosque</a> - Volunteer</li>
+        </ul>
+        <h4>Certifications</h4>
+        <ul className = 'certifications-links'>
+          <li><a href = "https://www.freecodecamp.org/certification/byz_kyk/responsive-web-design" target ="_blank" rel = "noopener noreferrer">Responsive Web Design</a> - freeCodeCamp</li>
+          <li><a href = "https://www.freecodecamp.org/certification/byz_kyk/javascript-algorithms-and-data-structures" target ="_blank" rel = "noopener noreferrer">Legacy JavaScript Algorithms and Data Structures</a> - freeCodeCamp</li>
+        </ul>
+        
       </section>
 
       {/*Education section*/}
@@ -76,6 +85,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;
