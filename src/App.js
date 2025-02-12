@@ -53,7 +53,12 @@ function App() {
       {/*Experience section*/}
       <section id = "experience">
         <h2>Experience</h2>
-        <p>Work and volunteer experience</p>
+        <ul className = 'experience-links'>
+          <li><a href="https://www.turkishcanadiansociety.ca/about-tcs/" target ="_blank" rel = "noopener noreferrer">Turkish Canadian Society of Edmonton</a> - Teaching Assistant</li>
+          <li><a href = "https://www.edmontonbluemosque.com" target ="_blank" rel = "noopener noreferrer">Edmonton Blue Mosque</a> - Volunteer</li>
+          <li></li>
+        </ul>
+        
       </section>
 
       {/*Education section*/}
@@ -76,6 +81,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;
