@@ -68,7 +68,12 @@ function App() {
       {/*Education section*/}
       <section id ="education">
         <h2>Education</h2>
-        <p>describe education</p>
+        <div className='school-info'>
+          <h4>Bachelor of Science - Computer Science</h4>
+          <h5>Simon Fraser University</h5>
+          <h6>Expected Graduation: 2027</h6>
+          <h6>GPA: 3.5/4.0</h6>
+        </div>
       </section>
 
       {/*Projects section*/}

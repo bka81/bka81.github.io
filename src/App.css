@@ -62,11 +62,11 @@ section{
 }
 #home{
     display: flex;
-    padding: 100px 100px;
+    padding: 100px;
     font-size:xx-large;
     align-items: center;
     justify-content:space-between;
-    margin-bottom:-5%;
+    
 }
 .icon-links a{
     font-size:50px;
@@ -85,16 +85,22 @@ section{
 #about{
     background-color: #a6ab6b;
     font-size:x-large;
+    text-align: center;
+}
+#about p{
+    text-align: justify;
 }
 #experience{
     background-color: #e8bebeab;
     font-size:x-large;
+    text-align: center;
 }
 .experience-links{
     list-style:square;
 }
 .experience-links li{
     margin-bottom: 15px;
+    text-align: left;
 }
 .experience-links a{
     text-decoration: none;
@@ -104,13 +110,14 @@ section{
     color:#be4cbe;
 }
 #experience h4{
-    text-indent: 1%;
+    text-align: left;
 }
 .certifications-links{
     list-style:square;
 }
 .certifications-links li{
     margin-bottom: 15px;
+    text-align: left;
 }
 .certifications-links a{
     text-decoration: none;
@@ -118,4 +125,11 @@ section{
 }
 .certifications-links :hover a{
     color:#be4cbe;
+}
+#education{
+    font-size:x-large;
+    text-align: center;
+}
+.school-info{
+    line-height: 0.5;
 }
