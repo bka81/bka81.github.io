@@ -5,7 +5,7 @@ html,body{
     margin: 0;
     padding: 0;
     background-color:#EDE8CC;
-    color:#242924;
+    color:#4f4e48;
     font-family:Georgia, 'Times New Roman', Times, serif ;
 }
 .navbar{
@@ -74,7 +74,7 @@ section{
     padding: 5px;
 }
 .icon-links :hover{
-    color:rgba(117, 27, 106, 0.674);   
+    color:rgba(145, 33, 132, 0.674);   
 }
 .profile-placeholder img{
     width: 400px;
@@ -140,5 +140,24 @@ section{
 }
 .project-container{
     display:flex;
-    
+    flex-wrap: wrap;
+    justify-content:space-between;
+    gap: 20px;
+    padding:20px 80px;
+}
+.project-box{
+    background-color:#EDE8CC;
+    border-radius: 10px;
+    width: 550px;
+    height: 250px;
+    box-shadow: 0px 4px 10px;
+}
+.project-box a{
+    text-decoration: none;
+    display:inline-block;
+    margin: 2px;
+    color:rgba(79, 18, 72, 0.674);
+}
+.project-box a:hover{
+    color:rgba(145, 33, 132, 0.674);  
 }

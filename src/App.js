@@ -95,11 +95,11 @@ function App() {
           </div>
           <div className = 'project-box'>
             <h4>FriendsBook App</h4>
-            <p>A simple command-line social application using a custom ADT implemented in C++</p>
+            <p>A simple command-line social application in C++</p>
             <a href="https://github.com/bka81/FriendsBook-App.git" target = "_blank" rel="noopener noreferrer">GitHub Repo</a>
           </div>
           <div className = 'project-box'>
-            <h4>Monkey Mayhem - Board Game Prototype</h4>
+            <h4>Monkey Mayhem - Board Game</h4>
             <p>Group Project - A strategy-based board game designed for 2 to 6 players</p>
             <a href="https://drive.google.com/file/d/1h_SFWQT5L65ZGgGpLOnD8jNYVd8l099l/view?usp=sharing" target = "_blank" rel="noopener noreferrer">Preproduction Prototype</a>
           </div>
