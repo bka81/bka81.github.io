@@ -92,15 +92,30 @@ section{
 }
 .experience-links{
     list-style:square;
-    
 }
 .experience-links li{
     margin-bottom: 15px;
 }
 .experience-links a{
     text-decoration: none;
-    color:#4A4E15;
+    color:#630c63;
 }
 .experience-links :hover a{
-    color:#a6ab6b;
+    color:#be4cbe;
+}
+#experience h4{
+    text-indent: 1%;
+}
+.certifications-links{
+    list-style:square;
+}
+.certifications-links li{
+    margin-bottom: 15px;
+}
+.certifications-links a{
+    text-decoration: none;
+    color:#630c63;
+}
+.certifications-links :hover a{
+    color:#be4cbe;
 }

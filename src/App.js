@@ -56,7 +56,11 @@ function App() {
         <ul className = 'experience-links'>
           <li><a href="https://www.turkishcanadiansociety.ca/about-tcs/" target ="_blank" rel = "noopener noreferrer">Turkish Canadian Society of Edmonton</a> - Teaching Assistant</li>
           <li><a href = "https://www.edmontonbluemosque.com" target ="_blank" rel = "noopener noreferrer">Edmonton Blue Mosque</a> - Volunteer</li>
-          <li></li>
+        </ul>
+        <h4>Certifications</h4>
+        <ul className = 'certifications-links'>
+          <li><a href = "https://www.freecodecamp.org/certification/byz_kyk/responsive-web-design" target ="_blank" rel = "noopener noreferrer">Responsive Web Design</a> - freeCodeCamp</li>
+          <li><a href = "https://www.freecodecamp.org/certification/byz_kyk/javascript-algorithms-and-data-structures" target ="_blank" rel = "noopener noreferrer">Legacy JavaScript Algorithms and Data Structures</a> - freeCodeCamp</li>
         </ul>
         
       </section>
