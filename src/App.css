@@ -83,7 +83,7 @@ section{
     object-fit: cover;  
 }
 #about{
-    background-color: #a6ab6b;
+    background-color: #c8cd8a;
     font-size:x-large;
     text-align: center;
 }
@@ -132,4 +132,13 @@ section{
 }
 .school-info{
     line-height: 0.5;
+}
+#projects{
+    font-size:x-large;
+    text-align: center;
+    background-color: #c8cd8a;
+}
+.project-container{
+    display:flex;
+    
 }
