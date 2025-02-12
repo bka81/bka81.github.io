@@ -68,13 +68,42 @@ function App() {
       {/*Education section*/}
       <section id ="education">
         <h2>Education</h2>
-        <p>describe education</p>
+        <div className='school-info'>
+          <h4>Bachelor of Science - Computer Science</h4>
+          <h5>Simon Fraser University</h5>
+          <h6>Expected Graduation: 2027</h6>
+          <h6>GPA: 3.5/4.0</h6>
+        </div>
       </section>
 
       {/*Projects section*/}
       <section id ="projects">
         <h2>Projects</h2>
-        <p>List your projects here and provide any links</p>
+        <p>School assignments and personal projects</p>
+        <div className='project-container'>
+          <div className = 'project-box'>
+            <h4>Customer Survey Form</h4>
+            <p>A customer feedback form built with HTML and CSS</p>
+            <a href="https://bka81.github.io/surveyform/" target = "_blank" rel="noopener noreferrer">Live Demo</a>
+            <br></br>
+            <a href="https://github.com/bka81/surveyform.git" target = "_blank" rel="noopener noreferrer">GitHub Repo</a>
+          </div>
+          <div className = 'project-box'>
+            <h4>Bank Simulation</h4>
+            <p>A C++ project simulating banking transactions</p>
+            <a href="https://github.com/bka81/bankSimApp.git" target = "_blank" rel="noopener noreferrer">GitHub Repo</a>
+          </div>
+          <div className = 'project-box'>
+            <h4>FriendsBook App</h4>
+            <p>A simple command-line social application in C++</p>
+            <a href="https://github.com/bka81/FriendsBook-App.git" target = "_blank" rel="noopener noreferrer">GitHub Repo</a>
+          </div>
+          <div className = 'project-box'>
+            <h4>Monkey Mayhem - Board Game</h4>
+            <p>Group Project - A strategy-based board game designed for 2 to 6 players</p>
+            <a href="https://drive.google.com/file/d/1h_SFWQT5L65ZGgGpLOnD8jNYVd8l099l/view?usp=sharing" target = "_blank" rel="noopener noreferrer">Preproduction Prototype</a>
+          </div>
+        </div>
       </section>
 
       {/*Hobbies section*/}
