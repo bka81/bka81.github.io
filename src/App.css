@@ -92,7 +92,7 @@ section{
     text-align: justify;
 }
 #experience{
-    background-color: #e8bebe72;
+    background-color: #e8bebe63;
     font-size:x-large;
     text-align: center;
 }
@@ -137,13 +137,13 @@ section{
 #projects{
     font-size:x-large;
     text-align: center;
-    background-color: #c8cd8a;
+    background-color: #d6d4939c;
 }
 .project-container{
     display:flex;
     flex-wrap: wrap;
-    justify-content:space-between;
-    gap: 20px;
+    justify-content:center;
+    gap: 30px;
     padding:20px 80px;
 }
 .project-box{
@@ -165,7 +165,7 @@ section{
 #hobbies{
     font-size:x-large;
     text-align: center;
-    background-color: #e8bebeab;
+    background-color: #e8bebe63;
 }
 #hobbies li{
     text-align: justify;
@@ -173,16 +173,20 @@ section{
     list-style:none;
 }
 .art-container{
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.vertical-images{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
-    padding: 1px 40px; 
-    
 }
 .art-box1 img{
-    width: 800px;
-    height: 500px;
+    width: 900px;
+    height: 600px;
     border-radius: 10%;
     object-fit: cover;  
     box-shadow: 0px 4px 10px;

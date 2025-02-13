@@ -79,7 +79,7 @@ function App() {
       {/*Projects section*/}
       <section id ="projects">
         <h2>Projects</h2>
-        <p>School assignments and personal projects</p>
+        <h4>School assignments and personal projects</h4>
         <div className='project-container'>
           <div className = 'project-box'>
             <h4>Customer Survey Form</h4>
@@ -119,12 +119,14 @@ function App() {
           <div className="art-box1">
             <img src = "/art1.jpg" alt ="digitial art of pink flowers"></img>
           </div>
-          <div className="art-box2">
-            <img src = "/art2.jpg" alt ="digitial art of water lilies"></img>
-          </div>
-          <div className="art-box3">
-            <img src = "/art3.jpg" alt ="digitial art of yellow roses"></img>
-          </div>
+          <div className="vertical-images">
+            <div className="art-box2">
+              <img src = "/art2.jpg" alt ="digitial art of water lilies"></img>
+            </div>
+            <div className="art-box3">
+              <img src = "/art3.jpg" alt ="digitial art of yellow roses"></img>
+            </div>
+            </div>
         </div>
       </section>
     </div>
