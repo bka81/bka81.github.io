@@ -5,7 +5,7 @@ html,body{
     margin: 0;
     padding: 0;
     background-color:#EDE8CC;
-    color:#4f4e48;
+    color:#3d3c37;
     font-family:Georgia, 'Times New Roman', Times, serif ;
 }
 .navbar{
@@ -48,7 +48,7 @@ html,body{
     margin-right:40px;
 }
 .navbarLinks li{
-    font-size: 26px;
+    font-size: 27px;
 }
 .navbarLinks a{
     text-decoration: none;
@@ -63,14 +63,14 @@ section{
 }
 #home{
     display: flex;
-    padding: 100px;
-    font-size:xx-large;
+    padding: 80px;
+    font-size:40px;
     align-items: center;
     justify-content:space-between;
     
 }
 .icon-links a{
-    font-size:50px;
+    font-size:60px;
     color:rgba(79, 18, 72, 0.674);
     padding: 5px;
 }
@@ -78,8 +78,8 @@ section{
     color:rgba(145, 33, 132, 0.674);   
 }
 .profile-placeholder img{
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     border-radius: 200%;
     object-fit: cover;  
 }
