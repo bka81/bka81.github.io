@@ -9,7 +9,7 @@ function App() {
       {/* Navbar and personal website logo */}
       <nav className ="navbar">
         <div className = "logo">
-          <span className = "circle">BNK</span>
+          <span className = "circle">B</span>
           <span className = "name"> Beyzanur Kuyuk</span> 
         </div>
         <ul className = "navbarLinks">
