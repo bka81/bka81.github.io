@@ -79,7 +79,7 @@ function App() {
       {/*Projects section*/}
       <section id ="projects">
         <h2>Projects</h2>
-        <p>School assignments and personal projects</p>
+        <h4>School assignments and personal projects</h4>
         <div className='project-container'>
           <div className = 'project-box'>
             <h4>Customer Survey Form</h4>

@@ -137,7 +137,7 @@ section{
 #projects{
     font-size:x-large;
     text-align: center;
-    background-color: #c8cd8a;
+    background-color: #d6d4939c;
 }
 .project-container{
     display:flex;
@@ -165,7 +165,7 @@ section{
 #hobbies{
     font-size:x-large;
     text-align: center;
-    background-color: #e8bebeab;
+    background-color: #e8bebe63;
 }
 #hobbies li{
     text-align: justify;
