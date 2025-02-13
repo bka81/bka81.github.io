@@ -84,7 +84,7 @@ section{
     object-fit: cover;  
 }
 #about{
-    background-color: #d6d493;
+    background-color: #d6d4939c;
     font-size:x-large;
     text-align: center;
 }
@@ -92,7 +92,7 @@ section{
     text-align: justify;
 }
 #experience{
-    background-color: #e8bebeab;
+    background-color: #e8bebe72;
     font-size:x-large;
     text-align: center;
 }
@@ -105,7 +105,7 @@ section{
 }
 .experience-links a{
     text-decoration: none;
-    color:#630c63;
+    color: #390e6e;
 }
 .experience-links :hover a{
     color:#be4cbe;
@@ -122,7 +122,7 @@ section{
 }
 .certifications-links a{
     text-decoration: none;
-    color:#630c63;
+    color:#390e6e;
 }
 .certifications-links :hover a{
     color:#be4cbe;
