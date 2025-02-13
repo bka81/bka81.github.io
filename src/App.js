@@ -109,7 +109,23 @@ function App() {
       {/*Hobbies section*/}
       <section id ="hobbies">
         <h2>Hobbies</h2>
-        <p>describe some your hobbies</p>
+        <ul>
+          <li><strong>Reading :</strong> My favourite genre is mystery and thriller</li>
+          <li><strong>Board Games: </strong>I love playing <em>Sorry</em> with my husband. It has such unpredictable outcomes and brings out the competitiveness of people</li>
+          <li><strong>Painting/Digital art: </strong>Painting is my go-to activity when I want to relax and recharge, especially when accompanied with a nice audio book. Here are some of my digital paintings:</li>
+        </ul>
+        <br></br>
+        <div className="art-container">
+          <div className="art-box1">
+            <img src = "/art1.jpg" alt ="digitial art of pink flowers"></img>
+          </div>
+          <div className="art-box2">
+            <img src = "/art2.jpg" alt ="digitial art of water lilies"></img>
+          </div>
+          <div className="art-box3">
+            <img src = "/art3.jpg" alt ="digitial art of yellow roses"></img>
+          </div>
+        </div>
       </section>
     </div>
   );
