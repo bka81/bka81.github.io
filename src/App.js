@@ -116,10 +116,15 @@ function App() {
         </ul>
         <br></br>
         <div className="art-container">
-          <div className="art-box">
+          <div className="art-box1">
             <img src = "/art1.jpg" alt ="digitial art of pink flowers"></img>
           </div>
-
+          <div className="art-box2">
+            <img src = "/art2.jpg" alt ="digitial art of water lilies"></img>
+          </div>
+          <div className="art-box3">
+            <img src = "/art3.jpg" alt ="digitial art of yellow roses"></img>
+          </div>
         </div>
       </section>
     </div>
