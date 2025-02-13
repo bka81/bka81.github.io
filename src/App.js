@@ -109,7 +109,11 @@ function App() {
       {/*Hobbies section*/}
       <section id ="hobbies">
         <h2>Hobbies</h2>
-        <p>describe some your hobbies</p>
+        <ul>
+          <li><strong>Reading :</strong> My favourite genre is mystery and thriller</li>
+          <li><strong>Board Games: </strong>I love playing <em>Sorry</em> with my family. It has such unpredictable outcomes and brings out the competitiveness of people</li>
+          <li><strong>Painting/Digital art: </strong>Painting is my go-to activity when I want to relax and recharge, especially when accompanied with a nice audio book. Here are some of my digital paintings:</li>
+        </ul>
       </section>
     </div>
   );
