@@ -47,7 +47,7 @@ function App() {
       {/*About section*/}
       <section id = "about">
         <h2>About Me</h2>
-        <p>I am a Computer Science student at Simon Fraser University with a passion for software development and love to learn more everyday and improve myself. For me, the computer is a canvas, the keyboard a brush, and programming a most fascinating art.</p>
+        <p>I am a Computer Science student at Simon Fraser University with a passion for software development and a love for continuous learning. I enjoy exploring new technologies and improving my skills along the way. To me, the computer is a canvas, the keyboard a brush, and programming a most fascinating art form.</p>
       </section>
 
       {/*Experience section*/}
