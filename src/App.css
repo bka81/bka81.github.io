@@ -30,7 +30,7 @@ html,body{
     align-items: center;
     width: 80px;
     height: 70px;
-    background-color: #744574;
+    background-color: rgba(79, 18, 72, 0.674);
     border-radius: 50%;
     border: 5px solid rgba(79, 18, 72, 0.674);
     color:#EDE8CC;
