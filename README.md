@@ -1,5 +1,7 @@
 ## My Personal Website
 
+View Portfolio here: https://bka81.github.io/ 
+
 This is my personal portfolio website built using **React** and deployed on **GitHub Pages**. It displays my skills, experiences and personal interests. 
 
 ## Features
@@ -12,8 +14,6 @@ This is my personal portfolio website built using **React** and deployed on **Gi
 - Projects section displaying school assignments and personal projects
 - Hobbies section listing personal interests and displaying some art-work
 - Deployed on GitHub Pages
-
-View Portfolio here: 
 
 Technologies Used:
 - React (Frontend framework)
