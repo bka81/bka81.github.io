@@ -1,6 +1,6 @@
-wq# My Personal Website
+## My Personal Website
 
-This is my personal portfolio website built using **React** and deployed on **GitHub Pages**. 
+This is my personal portfolio website built using **React** and deployed on **GitHub Pages**. It displays my skills, experiences and personal interests. 
 
 ## Features
 - Website logo
